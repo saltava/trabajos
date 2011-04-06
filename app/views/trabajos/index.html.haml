@@ -1,0 +1,12 @@
+%h1 TRABAJOS
+
+%table
+  %tr
+    %th CODIGO
+    %th DESCRIPCION
+
+  -@trabajos.each do |trabajo|
+    %tr
+      %th= trabajo.codigo
+      %th= trabajo.descripcion
+

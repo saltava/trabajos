@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.6'
 gem 'haml-rails'
-
+gem 'sqlite3'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -10,7 +10,6 @@ group :development do
   gem 'wirble'
   gem 'hirb'
   gem 'awesome_print'
-  gem 'sqlite3'
 end
 
 # Use unicorn as the web server

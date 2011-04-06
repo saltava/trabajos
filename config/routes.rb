@@ -1,4 +1,5 @@
 Trabajos::Application.routes.draw do
+  get 'trabajos' => 'trabajos#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
