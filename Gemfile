@@ -9,7 +9,7 @@ gem 'haml-rails'
 group :development do
   gem 'wirble'
   gem 'hirb'
-  gem 'awesome-print'
+  gem 'awesome_print'
   gem 'sqlite3'
 end
 
