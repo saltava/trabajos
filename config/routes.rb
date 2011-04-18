@@ -1,5 +1,10 @@
 Trabajos::Application.routes.draw do
-  get 'trabajos' => 'trabajos#index'
+  #get 'trabajos' => 'trabajos#index'
+  #get 'trabajos/:id' => 'trabajos#show'
+
+resources :trabajos
+root :to=> 'trabajos#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

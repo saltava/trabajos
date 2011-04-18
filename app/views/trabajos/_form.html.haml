@@ -1,0 +1,10 @@
+= form_for @trabajo do |f|
+  = render :partial => 'shared/error_messages', :locals => {:registro => @trabajo}
+  .field
+    = f.label :codigo
+    = f.text_field :codigo
+  .field
+    = f.label :descripcion
+    = f.text_field :descripcion
+  .actions
+    = f.submit 'Save'

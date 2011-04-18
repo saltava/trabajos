@@ -9,4 +9,11 @@
     %tr
       %th= trabajo.codigo
       %th= trabajo.descripcion
+      %th= link_to 'Show', trabajo
+      %th= link_to 'Edit', edit_trabajo_path(trabajo)
+      %th= link_to 'Destroy', trabajo, :confirm => '¿Estas seguro?', :method => :delete
 
+%br
+
+
+=link_to 'New Trabajo', new_trabajo_path
